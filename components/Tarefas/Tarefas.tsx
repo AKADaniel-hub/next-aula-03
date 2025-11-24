@@ -4,9 +4,9 @@ import {useEffect, useState} from 'react'
 export default function Tarefas() {
 
     // estados
-    const [tarefas, setTarefas] = useState<string[]>(['correr', 'passear'])
     const [novaTarefa, setNovaTarefa] = useState<string>("")
-
+    
+    // tarefas, lista de tarefas
 
     // event handlers
 
@@ -31,13 +31,13 @@ export default function Tarefas() {
                 Adicionar
             </button>
 
-            <p>Tarefas:</p>
-
+            
+            <p>Lista de Tarefas:</p>
+            {/* 
             <ul>
-                {tarefas.map((tarefa,index) => (
-                    <li key={index}>{tarefa}</li>
-                ))}
-            </ul>
+                {tarefas.map((tarefa,index) => <li key={index}>{tarefa}</li> )}
+            </ul> 
+            */}
         </section>
     )
 }
