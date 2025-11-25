@@ -18,7 +18,7 @@ export default function Tarefas() {
     return (
         <section className="bg-blue-300 p-2 pb-4 mt-6 rounded-xl">
 
-            <h2>Tarefas</h2>
+            <h2>Lista de Tarefas</h2>
 
             <input
                 type="text"

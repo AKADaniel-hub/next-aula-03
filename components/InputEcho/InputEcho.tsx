@@ -13,7 +13,7 @@ export default function InputEcho() {
     return (
         <section className="bg-blue-300 p-2 pb-4 mt-6 rounded-xl">
 
-            <h2>Eco do Input</h2>
+            <h2>Input de Texto e seu Input</h2>
             
             <input
                 type="text"

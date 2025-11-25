@@ -5,7 +5,7 @@ interface PreferidaProps {
    tecnologia: string;
 }
 
-export default function Preferida({tecnologia}:PreferidaProps) {
+export default function ContadorPorTecnologia({tecnologia}:PreferidaProps) {
 
     //
     // A. estados
@@ -18,6 +18,7 @@ export default function Preferida({tecnologia}:PreferidaProps) {
     // B. Efeitos
     useEffect(() => {
         localStorage.setItem(tecnologia, `${likes}`);
+        document.title = tecnologia + ` ${likes} ❤️`;
     }, [likes])
 
 

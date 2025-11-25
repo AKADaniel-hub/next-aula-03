@@ -1,4 +1,4 @@
-import Preferida from "../Preferida/Preferida"
+import ContadorPorTecnologia from "../ContadorPorTecnologia/ContadorPorTecnologia"
 
 export default function Tecnologias() {
 
@@ -12,13 +12,13 @@ export default function Tecnologias() {
     return (
         <section className="bg-blue-300 p-2 pb-4 mt-6 rounded-xl">
 
-            <h2>Tecnologias Preferidas</h2>
+            <h2>Contadores de Tecnologias Preferidas</h2>
 
             <ul>
                 {tecnologias.map((tecnologia, index) => (
                     <li key={index}>
                         {tecnologia} 
-                        <Preferida 
+                        <ContadorPorTecnologia 
                             tecnologia={tecnologia}
                         />
                     </li>

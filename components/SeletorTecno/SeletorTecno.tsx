@@ -12,7 +12,7 @@ export default function SeletorTecno() {
     return (
         <section className="bg-blue-300 p-2 pb-4 mt-6 rounded-xl">
 
-            <h2>Tecnologia Preferida</h2>
+            <h2>Selecione uma Tecnologia</h2>
             
             <select
                 className="bg-green-500 hover:bg-green-600 active:bg-green-700 hover:pointer text-white font-bold py-2 px-4 m-2 border border-green-700 rounded"
