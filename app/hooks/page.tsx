@@ -38,7 +38,7 @@ export default function HooksPage() {
 
             {/* <FetchUser /> */}
 
-            {/* <FetchUsers /> */}
+            { <FetchUsers /> }
         </>
     )
 }
